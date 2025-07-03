@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"name": "PVOIL - Cửa hàng 30",
+		"lat": 10.7769,
+		"lng": 106.7009,
+		"address": "185 Nguyễn Thị Minh Khai, Quận 1, TP. Hồ Chí Minh",
+		"phone": "(028) 39301234",
+		"email": "chxd30@pvoil.com.vn",
+		"hours": "24/24"
+	},
+	{
+		"id": 2,
+		"name": "PVOIL - Cửa hàng 31",
+		"lat": 10.7731,
+		"lng": 106.6930,
+		"address": "186 Trần Hưng Đạo, Quận 1, TP. Hồ Chí Minh",
+		"phone": "(028) 39304567",
+		"email": "chxd31@pvoil.com.vn",
+		"hours": "24/24"
+	}
+]
