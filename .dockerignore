@@ -1,7 +1,10 @@
 node_modules
-build
-dist
 .git
-.gitignore
-Dockerfile*
+dist
+build
+coverage
+*.log
+*.zip
+*.tar
+.env
 docker-compose.yml
