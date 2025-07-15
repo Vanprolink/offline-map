@@ -308,6 +308,7 @@ const MapViewer = () => {
 
 		navigator.geolocation.getCurrentPosition(
 			(position) => {
+				console.log("Vị trí:", position.coords);
 				const originLat = position.coords.latitude;
 				const originLng = position.coords.longitude;
 
@@ -331,7 +332,13 @@ const MapViewer = () => {
 				});
 			},
 			(error) => {
+				console.error("Lỗi định vị:", error.message);
 				alert("Không thể lấy vị trí hiện tại: " + error.message);
+			},
+			{
+				enableHighAccuracy: true,
+				timeout: 10000,
+				maximumAge: 0
 			}
 		);
 	};

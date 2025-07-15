@@ -1,0 +1,8 @@
+version: '3'
+services:
+  map-viewer:
+    image: vanprolink0605/map-viewer:latest
+    ports:
+      - "3000:80"
+    restart: always
+    container_name: map-viewer
