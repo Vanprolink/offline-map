@@ -18,5 +18,85 @@
 		"phone": "(028) 39304567",
 		"email": "chxd31@pvoil.com.vn",
 		"hours": "24/24"
+	},
+	{
+		"id": 3,
+		"name": "Chợ Bến Thành",
+		"address": "Quận 1, TP.HCM",
+		"note": "Biểu tượng văn hóa Sài Gòn",
+		"lat": 10.7721,
+		"lng": 106.6983
+	},
+	{
+		"id": 4,
+		"name": "Lăng Chủ tịch Hồ Chí Minh",
+		"address": "Ba Đình, Hà Nội",
+		"note": "Nơi an nghỉ của Bác Hồ",
+		"lat": 21.0367,
+		"lng": 105.8342
+	},
+	{
+		"id": 5,
+		"name": "Cầu Rồng",
+		"address": "Đà Nẵng",
+		"note": "Cầu phun lửa nổi tiếng",
+		"lat": 16.0611,
+		"lng": 108.2282
+	},
+	{
+		"id": 6,
+		"name": "Chợ Đông Ba",
+		"address": "Huế",
+		"note": "Chợ truyền thống lâu đời",
+		"lat": 16.4711,
+		"lng": 107.5955
+	},
+	{
+		"id": 7,
+		"name": "Tháp Bà Ponagar",
+		"address": "Nha Trang",
+		"note": "Di tích Chăm cổ",
+		"lat": 12.2655,
+		"lng": 109.1951
+	},
+	{
+		"id": 8,
+		"name": "Chợ Đà Lạt",
+		"address": "Lâm Đồng",
+		"note": "Trung tâm mua sắm cao nguyên",
+		"lat": 11.9416,
+		"lng": 108.4383
+	},
+	{
+		"id": 9,
+		"name": "Chợ Cần Thơ",
+		"address": "Cần Thơ",
+		"note": "Chợ nổi miền Tây",
+		"lat": 10.0342,
+		"lng": 105.7875
+	},
+	{
+		"id": 10,
+		"name": "Chợ Vinh",
+		"address": "Nghệ An",
+		"note": "Chợ lớn miền Trung",
+		"lat": 18.6736,
+		"lng": 105.6923
+	},
+	{
+		"id": 11,
+		"name": "Chợ Móng Cái",
+		"address": "Quảng Ninh",
+		"note": "Chợ biên giới sôi động",
+		"lat": 21.5247,
+		"lng": 107.9662
+	},
+	{
+		"id": 12,
+		"name": "Chợ Long Xuyên",
+		"address": "An Giang",
+		"note": "Chợ miền Tây đặc trưng",
+		"lat": 10.3864,
+		"lng": 105.4352
 	}
 ]

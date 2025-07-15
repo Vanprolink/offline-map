@@ -40,7 +40,7 @@
 
 .info-panel {
   position: absolute;
-  top: 0;
+  top: 70px;
   left: 0;
   width: 350px;
   height: 100vh;
@@ -86,7 +86,7 @@
 
 .custom-popup {
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 50px;
   width: 360px;
   background: #fff;
@@ -117,7 +117,7 @@
   background-color: #0078d4;
   color: white;
   border: none;
-  border-radius: 16%;
+  border-radius: 8px;
   width: 56px;
   height: 36px;
   font-size: 18px;
@@ -145,9 +145,75 @@
 
 .btn-action:hover svg {
   color: #aecadf;
-  /* màu khi hover */
+  /* đổi màu khi hover */
+  transform: translateY(-2px) scale(1.1);
+  /* hiệu ứng nổi lên + phóng nhẹ */
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .btn-action:focus {
   outline: none;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.toolbar-left .logo {
+  height: 40px;
+  /* min-width: 120px; */
+}
+
+.toolbar-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 200px;
+}
+
+.toolbar-select {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.toolbar-btn {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toolbar-btn:hover {
+  background-color: #005fa3;
+}
+
+.react-select__control {
+  min-width: 200px;
+}
+
+.react-select__clear-indicator {
+  color: #f44336;
+  cursor: pointer;
 }
